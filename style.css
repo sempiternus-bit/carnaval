@@ -2,20 +2,48 @@ body{
 
 	background: #DBD8E3;
 	font-family: Arial;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 
 }
 
-#colunas{
+#cabeca{
 
+	border-bottom: solid black 2px;
+	border-top: solid black 2px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 700px;
+	border-left: solid black 2px;
+	border-right: solid black 2px;
+
+}
+
+#cabeca img{
+
+	width: 500px;
+
+}
+
+#secao{
+
+	width: 700px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	border-left: solid black 2px;
+	border-right: solid black 2px;
 
 }
 
-#colunas div{
 
-	widows: 100px;
+.image{
+
+	width: 250px;
+	height: 250px;
+	border: solid black 1px;
+	margin-bottom: -10px;
 
 }
