@@ -1,0 +1,21 @@
+body{
+
+	background: #DBD8E3;
+	font-family: Arial;
+	text-align: center;
+
+}
+
+#colunas{
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+#colunas div{
+
+	widows: 100px;
+
+}
