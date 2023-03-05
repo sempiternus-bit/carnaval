@@ -1,49 +1,63 @@
-body{
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
-	background: #DBD8E3;
-	font-family: Arial;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-
+/*Reset*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	outline: none;
 }
 
-#cabeca{
+a{text-decoration: none;color: initial;}
 
-	border-bottom: solid black 2px;
-	border-top: solid black 2px;
+html{
+	scroll-behavior: smooth;
+	font-family: 'Poppins', sans-serif;
+}
+
+/* Auxiliar */
+.container{
+	max-width: 128em;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+/*Estrutura*/
+body{
+	background: #DBD8E3;
+}
+
+/* HEADER */
+header#cabeca{
+	border-bottom: 1px solid black;
+}
+
+header .container{
+	padding: 20px 0;
 	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	width: 700px;
-	border-left: solid black 2px;
-	border-right: solid black 2px;
-
+	justify-content: space-evenly;
+	align-items: center;
 }
 
 #cabeca img{
-
-	width: 500px;
-
+	max-width: 50px;
 }
 
+/* SECTION */
 #secao{
-
-	width: 700px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	border-left: solid black 2px;
-	border-right: solid black 2px;
-
+	padding: 20px 0;
 }
 
+#secao .container{
+	max-width: 60%;
+}
 
 .image{
-
 	width: 250px;
 	height: 250px;
 	border: solid black 1px;
-	margin-bottom: -10px;
-
 }
+
+/* ASIDE */
+/* FOOTER */
